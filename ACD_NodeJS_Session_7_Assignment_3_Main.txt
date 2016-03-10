@@ -1,0 +1,25 @@
+Compared to Java's Maven node.js package management system(npm) is the best ever. To me that alone should be enough to switch.
+
+Fast-
+node.js is very fast(event-loop non-blocking) and also has very speedy native bindings(C).
+
+Performance-
+Performance is the main advantage, node.js allocates a small heap per each connection, while other server side solutions create a (2MB) thread for each incoming connection, and of course creating a thread is much slower than allocating heap memory. Among the other advantages is the event-oriented and non-blocking nature of node.js.
+
+node.js is event driven. While most other frameworks have this kind of functionality built-in as an add-on (e.g. via event machine), this is just "the way" in node.js
+
+Second, being written in JavaScript lowers the barrier to entry for most front-end developers who are already used to working with the language
+
+As application developers it is our responsibility to Apply logic to solve problems. All problems that front-end developers have have similar counterparts in back-end development. Yes they are expressed differently, but they are fundamentally the same problems.
+Node simply expresses this fact by unifying the methodologies in a discrete and rational way.
+By having the back-end written in the same way, applying the same logical paths, it makes the transition far more transparent to the developer, simplifying their work
+
+The list of companies working on Node.js are-
+
+Netflix
+New York Times
+PayPal
+Medium
+LinkedIn
+Uber
+Many Startups, etc
